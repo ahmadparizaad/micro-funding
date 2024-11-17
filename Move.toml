@@ -1,0 +1,15 @@
+[package]
+name = "startups_micro_funding"
+version = "1.0.0"
+authors = []
+
+[addresses]
+startups_micro_funding = '0xf61756d7f92323d850cfd907e9c2f6f17c61d10104c126616cddda3f57fb2df3'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "testnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
